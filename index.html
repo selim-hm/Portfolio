@@ -334,7 +334,7 @@
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>laila morad</h4>
-
+               
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
                     Engineer Mohamed Salim is one of the best engineers we have recently contracted with. He pays attention to the smallest details of his work.
@@ -411,7 +411,7 @@
 
               <h4 class="h3 modal-title" data-modal-title>omar aboali</h4>
 
-              <time datetime="2025-06-14">14 June, 2025</time>
+              
 
               <div data-modal-text>
                 <p>
@@ -908,7 +908,7 @@
                   <img src="./assets/images/project-8.jpg" alt="arrival" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">e-commerce</h3>
+                <h3 class="project-title">Arrival</h3>
 
                 <p class="project-category">Web development</p>
 
@@ -1133,29 +1133,32 @@
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
+       
+       <section class="contact-form">
 
-        <section class="contact-form">
+  <h3 class="h3 form-title">Contact Form</h3>
 
-          <h3 class="h3 form-title">Contact Form</h3>
+  <form action="https://formsubmit.co/mojamedmaher55@gmail.com" method="POST" class="form" data-form>
 
-          <form action="#" class="form" data-form>
+    <div class="input-wrapper">
+      <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+      <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+    </div>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+    <button class="form-btn" type="submit" data-form-btn>
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+    <!-- منع الكابتشا الافتراضية -->
+    <input type="hidden" name="_captcha" value="false">
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+     <input type="hidden" name="_next" value="https://portfolio-selims-projects-c65def77.vercel.app/"> 
+  </form>
 
-          </form>
-
-        </section>
+</section>
 
       </article>
 
