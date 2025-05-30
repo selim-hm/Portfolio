@@ -4,7 +4,7 @@
 
 
 /**
- * copyright 2022 @codewithsadee
+ * 
  */
 
 
@@ -595,11 +595,11 @@ main {
 
 .testimonials-item-title { margin-bottom: 7px; }
 
-.testimonials-text {
-  color: var(--light-gray);
+color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+.testimonials-text {
   display: -webkit-box;
   line-clamp: 4;
   -webkit-line-clamp: 4;
